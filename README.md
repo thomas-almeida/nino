@@ -6,3 +6,6 @@
   <p> Algo que se pareça com a tela inicial do Google no chrome, porém melhor e mais intuitivo</p>
   
 ![image](https://user-images.githubusercontent.com/81270415/128084482-65bc0577-cb5f-4c26-b4a6-ab24146ee219.png)
+
+<p>O desing dos cards dos sites deverá seguir um padrão de Design mais ou menos assim..</p>
+![image](brainstorm\screen_1.png)
