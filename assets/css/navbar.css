@@ -1,0 +1,19 @@
+nav{
+    background-color: whitesmoke;
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

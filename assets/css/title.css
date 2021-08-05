@@ -1,0 +1,95 @@
+.title{
+
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 4.9rem;
+}
+
+.atalhos{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.atalhos ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.atalhos li{
+    display: inline-block;
+}
+
+.atalho-item{
+    background-color: rgba(255, 255, 255, 0.966);
+    box-shadow: 1px 2px 3px mediumpurple;
+    border: 1px solid rgba(186, 85, 211, 0.637);
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 140px;
+    transition: transform .2s;
+}
+
+.atalho-item:hover{
+    -ms-transform: scale(1.08); /* IE 9 */
+  -webkit-transform: scale(1.08); /* Safari 3-8 */
+  transform: scale(1.08); 
+}
+
+.atalho-item a{
+    text-decoration: none;
+    background-color: mediumpurple;
+    border: 1px solid mediumpurple;
+    color: white;
+    font-weight: bold;
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.atalho-item a:hover{
+    background-color: white;
+    color: mediumpurple;
+    border: 1px solid mediumpurple;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+.atalho-item section{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.atalho-title{
+    align-items: center;
+}
+.atalho-title img{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(230, 230, 230, 0.801);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.atalho-item h2{
+    display: flex;
+    align-items: center;
+}
