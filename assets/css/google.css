@@ -13,7 +13,7 @@ input{
     font-size: 16pt;
 }
 
-#src_btn{
+#searchButton{
     padding: 15px;
     width: 100px;
     text-align: center;
@@ -25,7 +25,7 @@ input{
     border-radius: 5px;
 }
 
-#src_btn:hover{
+#searchButton:hover{
     background-color: white;
     color: mediumpurple ;
     font-weight: bold;

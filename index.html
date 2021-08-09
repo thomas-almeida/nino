@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
+<body id="fundo">
 
     <div class="container">
         <div class="container-content">
@@ -20,8 +20,8 @@
             </div>
 
             <div id="search_bar">
-                <input type="text" id="search" placeholder="Pesquisar no Google...">
-                <a id="src_btn" href="https://www.google.com/search?q=iza gueto" target="_blank">Pesquisar</a>
+                <input type="text" id="search" placeholder="Pesquisar no Google....">
+                <a id="searchButton" target="_blank">Pesquisar</a>
             </div>
 
             <div class="atalhos">
@@ -29,11 +29,11 @@
                     <li>
                         <div class="atalho-item">
                             <section class="atalho-title">
-                                <img src="assets/images/shortcut-black.png">
+                                <img id="logoShort_1" src="assets/images/shortcut-black.png">
                                 <h2 id="atalho_nome_1">Adicion. atalho</h2>
                             </section>
                             <section>
-                                <a class="add-shortcut" href="#">&#43</a>
+                                <a class="add-shortcut" id="addLink_1" onclick="modoBlack()" href="#">&#43</a>
                             </section>
                         </div>
                     </li>
@@ -96,16 +96,16 @@
                             </section>
                         </div>
                     </li>
-
                 </ul>
             </div>
-
         </div>
-
     </div>
 
 </body>
 <!-- Google API loader -->
-<script src="assets/js/add-shortcut.js" async defer></script>
+<script src="assets/js/add-shortcut.js" async defer>
+
+    
+</script>
 
 </html>

@@ -20,3 +20,7 @@
 h1{
     color: mediumpurple;
 }
+
+a{
+    cursor: pointer;
+}
