@@ -9,8 +9,14 @@ input{
     width: 60%;
     margin: 5px;
     border-radius: 5px;
-    border: 1px solid rgba(186, 85, 211, 0.637);
+    border: 1px solid mediumpurple;
     font-size: 16pt;
+    outline: none;
+}
+
+input::placeholder{
+    color: mediumpurple;
+    font-weight: bold;
 }
 
 #searchButton{
@@ -18,7 +24,7 @@ input{
     width: 100px;
     text-align: center;
     text-decoration: none;
-    background-color: mediumpurple;
+    background-color: rgb(147, 112, 216);
     border: 1px solid mediumpurple;
     color: white;
     font-weight: bold;

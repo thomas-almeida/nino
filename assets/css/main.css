@@ -1,9 +1,12 @@
 @import url('navbar.css');
 @import url('title.css');
 @import url('google.css');
+@import url('footer.css');
 
 *{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .container{

@@ -1,0 +1,36 @@
+footer{
+    background-color: whitesmoke;
+    position: relative;
+    top: 175px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer  div{
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+footer li{
+    display: inline-block;
+    padding:10px;
+    margin: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: mediumpurple;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: rgb(173, 144, 231);
+}
+
